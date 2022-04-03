@@ -11,4 +11,19 @@
 
     background-color: #fff;
     border-radius: 5px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+
+    cursor: pointer;
+    border: none;
+}
+
+.active {
+    font-weight: 500 !important;
 }
