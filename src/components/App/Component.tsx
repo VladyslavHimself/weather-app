@@ -1,6 +1,7 @@
 import 'normalize.css';
 import { useState } from 'react';
 import logoSvg from '../../assets/logotype.svg';
+import ChooseMetricButton from '../ChooseMetricButton/Component';
 import SearchField from '../SearchField/Component';
 
 import classes from './styles.module.scss';
@@ -21,7 +22,7 @@ function App() {
                             setStateValue={setfirst}
                         />
                     </div>
-                    <div className={classes.metrics}>s</div>
+                    <ChooseMetricButton />
                 </div>
             </div>
         </div>

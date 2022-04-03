@@ -14,5 +14,18 @@
         width: $container-max-width;
         display: flex;
         justify-content: space-between;
+        padding: 0 20px;
     }
+}
+
+.metrics {
+    width: 170px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 5px;
 }

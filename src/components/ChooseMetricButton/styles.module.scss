@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+@import '../../styles/variables';
+
+.metrics {
+    width: 170px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 5px;
+}
