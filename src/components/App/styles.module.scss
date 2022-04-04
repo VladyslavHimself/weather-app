@@ -1,4 +1,116 @@
-.daily-weather {
+@import '../../styles/variables';
+@import '../../styles/colors';
+
+.today-weather {
     width: 100%;
-    height: 405px;
+    min-height: 405px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container {
+        width: $container-max-width;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.average-data {
+    width: 256px;
+
+    display: flex;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    flex-direction: column;
+
+    &__city {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    &__time {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: $text-color-secondary;
+    }
+
+    &__temperature {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 112px;
+        color: $text-color;
+    }
+}
+
+.general-data {
+    width: 837px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.data-item {
+    width: 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Roboto';
+    font-style: normal;
+
+    &__time {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+        color: $text-color-secondary;
+    }
+
+    &__weather-type {
+        margin: 20px 0px 25px 0px;
+    }
+
+    &__temperature {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 1092px) {
+    .today-weather {
+        .container {
+            width: 90%;
+            justify-content: center;
+            .average-data {
+                margin-top: 50px;
+            }
+            .general-data {
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .today-weather {
+        .container {
+            width: 90%;
+            justify-content: center;
+            .general-data {
+                flex-direction: column;
+                align-items: center;
+
+                .data-item {
+                    margin: 25px 0;
+                }
+            }
+        }
+    }
 }

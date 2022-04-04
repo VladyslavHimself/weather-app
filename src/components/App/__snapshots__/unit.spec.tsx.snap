@@ -1,206 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App shoud not have any console errors 1`] = `
-<div>
-  <div
-    class="App"
-  >
-    <div
-      class="navbar"
-    >
-      <div
-        class="container"
-      >
-        <div
-          class="logotype"
-        >
-          <img
-            alt="logotype"
-            src="logotype.svg"
-          />
-        </div>
-        <div
-          class="search"
-        >
-          <div
-            class="search-field"
-          >
-            <input
-              class="search-bar"
-              type="text"
-              value=""
-            />
-            <button
-              class="button"
-              type="button"
-            >
-              <img
-                alt="loopa"
-                src="loopa.svg"
-              />
-            </button>
-          </div>
-        </div>
-        <button
-          class="metrics"
-          type="button"
-        >
-          <span
-            class="active"
-          >
-            °C
-          </span>
-          <span
-            style="margin: 0px 5px;"
-          >
-            /
-          </span>
-          <span>
-            °F
-          </span>
-        </button>
-      </div>
-    </div>
-    <div
-      class="daily-weather"
-    >
-      hello
-    </div>
-  </div>
-</div>
-`;
-
-exports[`App should render the navbar 1`] = `
-<div>
-  <div
-    class="App"
-  >
-    <div
-      class="navbar"
-    >
-      <div
-        class="container"
-      >
-        <div
-          class="logotype"
-        >
-          <img
-            alt="logotype"
-            src="logotype.svg"
-          />
-        </div>
-        <div
-          class="search"
-        >
-          <div
-            class="search-field"
-          >
-            <input
-              class="search-bar"
-              type="text"
-              value=""
-            />
-            <button
-              class="button"
-              type="button"
-            >
-              <img
-                alt="loopa"
-                src="loopa.svg"
-              />
-            </button>
-          </div>
-        </div>
-        <button
-          class="metrics"
-          type="button"
-        >
-          <span
-            class="active"
-          >
-            °C
-          </span>
-          <span
-            style="margin: 0px 5px;"
-          >
-            /
-          </span>
-          <span>
-            °F
-          </span>
-        </button>
-      </div>
-    </div>
-    <div
-      class="daily-weather"
-    >
-      hello
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Navbar should render correctly 1`] = `
-<div>
-  <div
-    class="navbar"
-  >
-    <div
-      class="container"
-    >
-      <div
-        class="logotype"
-      >
-        <img
-          alt="logotype"
-          src="logotype.svg"
-        />
-      </div>
-      <div
-        class="search"
-      >
-        <div
-          class="search-field"
-        >
-          <input
-            class="search-bar"
-            type="text"
-            value=""
-          />
-          <button
-            class="button"
-            type="button"
-          >
-            <img
-              alt="loopa"
-              src="loopa.svg"
-            />
-          </button>
-        </div>
-      </div>
-      <button
-        class="metrics"
-        type="button"
-      >
-        <span
-          class="active"
-        >
-          °C
-        </span>
-        <span
-          style="margin: 0px 5px;"
-        >
-          /
-        </span>
-        <span>
-          °F
-        </span>
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Render App components should render DetailedDailyDescription component 1`] = `
 <div>
   <div
@@ -263,80 +62,136 @@ exports[`Render App components should render DetailedDailyDescription component 
       </div>
     </div>
     <div
-      class="daily-weather"
-    >
-      hello
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Render App components should render hourly weather component 1`] = `
-<div>
-  <div
-    class="App"
-  >
-    <div
-      class="navbar"
+      class="today-weather"
     >
       <div
         class="container"
       >
         <div
-          class="logotype"
-        >
-          <img
-            alt="logotype"
-            src="logotype.svg"
-          />
-        </div>
-        <div
-          class="search"
+          class="average-data"
         >
           <div
-            class="search-field"
+            class="average-data__city"
           >
-            <input
-              class="search-bar"
-              type="text"
-              value=""
-            />
-            <button
-              class="button"
-              type="button"
-            >
-              <img
-                alt="loopa"
-                src="loopa.svg"
-              />
-            </button>
+            London
+          </div>
+          <div
+            class="average-data__time"
+          >
+            Sunday 07:09
+          </div>
+          <div
+            class="average-data__temperature"
+          >
+            12°C
           </div>
         </div>
-        <button
-          class="metrics"
-          type="button"
+        <div
+          class="general-data"
         >
-          <span
-            class="active"
+          <div
+            class="data-item"
           >
-            °C
-          </span>
-          <span
-            style="margin: 0px 5px;"
+            <div
+              class="data-item__time"
+            >
+              08:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
           >
-            /
-          </span>
-          <span>
-            °F
-          </span>
-        </button>
+            <div
+              class="data-item__time"
+            >
+              09:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              10:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              11:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div
-      class="daily-weather"
+      class="hourly-weather"
     >
-      hello
+      <div
+        class="container"
+      >
+        hello
+      </div>
     </div>
+    <div
+      class="detailed-daily-weather"
+    />
   </div>
 </div>
 `;
@@ -403,10 +258,136 @@ exports[`Render App components should render hourlyWeather component 1`] = `
       </div>
     </div>
     <div
-      class="daily-weather"
+      class="today-weather"
     >
-      hello
+      <div
+        class="container"
+      >
+        <div
+          class="average-data"
+        >
+          <div
+            class="average-data__city"
+          >
+            London
+          </div>
+          <div
+            class="average-data__time"
+          >
+            Sunday 07:09
+          </div>
+          <div
+            class="average-data__temperature"
+          >
+            12°C
+          </div>
+        </div>
+        <div
+          class="general-data"
+        >
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              08:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              09:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              10:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              11:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div
+      class="hourly-weather"
+    >
+      <div
+        class="container"
+      >
+        hello
+      </div>
+    </div>
+    <div
+      class="detailed-daily-weather"
+    />
   </div>
 </div>
 `;
@@ -473,80 +454,136 @@ exports[`Render App components should render the Navbar component 1`] = `
       </div>
     </div>
     <div
-      class="daily-weather"
-    >
-      hello
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Render App components should render the daily weather component 1`] = `
-<div>
-  <div
-    class="App"
-  >
-    <div
-      class="navbar"
+      class="today-weather"
     >
       <div
         class="container"
       >
         <div
-          class="logotype"
-        >
-          <img
-            alt="logotype"
-            src="logotype.svg"
-          />
-        </div>
-        <div
-          class="search"
+          class="average-data"
         >
           <div
-            class="search-field"
+            class="average-data__city"
           >
-            <input
-              class="search-bar"
-              type="text"
-              value=""
-            />
-            <button
-              class="button"
-              type="button"
-            >
-              <img
-                alt="loopa"
-                src="loopa.svg"
-              />
-            </button>
+            London
+          </div>
+          <div
+            class="average-data__time"
+          >
+            Sunday 07:09
+          </div>
+          <div
+            class="average-data__temperature"
+          >
+            12°C
           </div>
         </div>
-        <button
-          class="metrics"
-          type="button"
+        <div
+          class="general-data"
         >
-          <span
-            class="active"
+          <div
+            class="data-item"
           >
-            °C
-          </span>
-          <span
-            style="margin: 0px 5px;"
+            <div
+              class="data-item__time"
+            >
+              08:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
           >
-            /
-          </span>
-          <span>
-            °F
-          </span>
-        </button>
+            <div
+              class="data-item__time"
+            >
+              09:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              10:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              11:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div
-      class="daily-weather"
+      class="hourly-weather"
     >
-      hello
+      <div
+        class="container"
+      >
+        hello
+      </div>
     </div>
+    <div
+      class="detailed-daily-weather"
+    />
   </div>
 </div>
 `;
@@ -613,150 +650,136 @@ exports[`Render App components should render the dailyWeather component 1`] = `
       </div>
     </div>
     <div
-      class="daily-weather"
-    >
-      hello
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Render App components should render the navbar 1`] = `
-<div>
-  <div
-    class="App"
-  >
-    <div
-      class="navbar"
+      class="today-weather"
     >
       <div
         class="container"
       >
         <div
-          class="logotype"
-        >
-          <img
-            alt="logotype"
-            src="logotype.svg"
-          />
-        </div>
-        <div
-          class="search"
+          class="average-data"
         >
           <div
-            class="search-field"
+            class="average-data__city"
           >
-            <input
-              class="search-bar"
-              type="text"
-              value=""
-            />
-            <button
-              class="button"
-              type="button"
-            >
-              <img
-                alt="loopa"
-                src="loopa.svg"
-              />
-            </button>
+            London
+          </div>
+          <div
+            class="average-data__time"
+          >
+            Sunday 07:09
+          </div>
+          <div
+            class="average-data__temperature"
+          >
+            12°C
           </div>
         </div>
-        <button
-          class="metrics"
-          type="button"
+        <div
+          class="general-data"
         >
-          <span
-            class="active"
+          <div
+            class="data-item"
           >
-            °C
-          </span>
-          <span
-            style="margin: 0px 5px;"
+            <div
+              class="data-item__time"
+            >
+              08:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
           >
-            /
-          </span>
-          <span>
-            °F
-          </span>
-        </button>
+            <div
+              class="data-item__time"
+            >
+              09:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              10:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+          <div
+            class="data-item"
+          >
+            <div
+              class="data-item__time"
+            >
+              11:00
+            </div>
+            <div
+              class="data-item__weather-type"
+            >
+              <img
+                alt="cloudy"
+                src="cloud.svg"
+              />
+            </div>
+            <div
+              class="data-item__temperature"
+            >
+              13 °C
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div
-      class="daily-weather"
-    >
-      hello
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Render App components should render the navbar component 1`] = `
-<div>
-  <div
-    class="App"
-  >
-    <div
-      class="navbar"
+      class="hourly-weather"
     >
       <div
         class="container"
       >
-        <div
-          class="logotype"
-        >
-          <img
-            alt="logotype"
-            src="logotype.svg"
-          />
-        </div>
-        <div
-          class="search"
-        >
-          <div
-            class="search-field"
-          >
-            <input
-              class="search-bar"
-              type="text"
-              value=""
-            />
-            <button
-              class="button"
-              type="button"
-            >
-              <img
-                alt="loopa"
-                src="loopa.svg"
-              />
-            </button>
-          </div>
-        </div>
-        <button
-          class="metrics"
-          type="button"
-        >
-          <span
-            class="active"
-          >
-            °C
-          </span>
-          <span
-            style="margin: 0px 5px;"
-          >
-            /
-          </span>
-          <span>
-            °F
-          </span>
-        </button>
+        hello
       </div>
     </div>
     <div
-      class="daily-weather"
-    >
-      hello
-    </div>
+      class="detailed-daily-weather"
+    />
   </div>
 </div>
 `;
