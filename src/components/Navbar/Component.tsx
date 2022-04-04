@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import ChooseMetricButton from '../ChooseMetricButton/Component';
 import SearchField from '../SearchField/Component';
 import classes from './styles.module.scss';
