@@ -71,7 +71,7 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className="hourly-weather">
+            <div className="detailed-now-weather">
                 <div className="container">hello</div>
             </div>
             <div className="detailed-daily-weather" />
