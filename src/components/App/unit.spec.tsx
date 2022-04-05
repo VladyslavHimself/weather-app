@@ -4,8 +4,8 @@ import App from './Component';
 describe('Render App components', () => {
     const components = {
         navbar: '.navbar',
-        dailyWeather: '.daily-weather',
-        hourlyWeather: '.hourly-weather',
+        todayWeather: '.today-weather',
+        detailedNowWeather: '.detailed-now-weather',
         detailedDailyWeather: '.detailed-daily-weather',
     };
 
@@ -24,7 +24,7 @@ describe('Render App components', () => {
         const { container } = render(<App />);
         expect(container).toMatchSnapshot();
         expect(
-            container.querySelector(components.dailyWeather)
+            container.querySelector(components.todayWeather)
         ).toBeInTheDocument();
     });
 
@@ -32,7 +32,7 @@ describe('Render App components', () => {
         const { container } = render(<App />);
         expect(container).toMatchSnapshot();
         expect(
-            container.querySelector(components.hourlyWeather)
+            container.querySelector(components.detailedNowWeather)
         ).toBeInTheDocument();
     });
 

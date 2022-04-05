@@ -181,7 +181,7 @@ exports[`Render App components should render DetailedDailyDescription component 
       </div>
     </div>
     <div
-      class="hourly-weather"
+      class="detailed-now-weather"
     >
       <div
         class="container"
@@ -377,7 +377,7 @@ exports[`Render App components should render hourlyWeather component 1`] = `
       </div>
     </div>
     <div
-      class="hourly-weather"
+      class="detailed-now-weather"
     >
       <div
         class="container"
@@ -573,7 +573,7 @@ exports[`Render App components should render the Navbar component 1`] = `
       </div>
     </div>
     <div
-      class="hourly-weather"
+      class="detailed-now-weather"
     >
       <div
         class="container"
@@ -769,7 +769,7 @@ exports[`Render App components should render the dailyWeather component 1`] = `
       </div>
     </div>
     <div
-      class="hourly-weather"
+      class="detailed-now-weather"
     >
       <div
         class="container"
