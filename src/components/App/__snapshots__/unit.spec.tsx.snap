@@ -264,8 +264,47 @@ exports[`Render App components should render DetailedDailyDescription component 
       </div>
     </div>
     <div
-      class="detailed-daily-weather"
-    />
+      class="other-days-weather"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="weather-table"
+        >
+          <div
+            class="weather-table-item"
+          >
+            <div
+              class="weather-table-item__title"
+            >
+              Day
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Chance of rain
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Humidity
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Wind
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Temperature
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -534,8 +573,47 @@ exports[`Render App components should render hourlyWeather component 1`] = `
       </div>
     </div>
     <div
-      class="detailed-daily-weather"
-    />
+      class="other-days-weather"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="weather-table"
+        >
+          <div
+            class="weather-table-item"
+          >
+            <div
+              class="weather-table-item__title"
+            >
+              Day
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Chance of rain
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Humidity
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Wind
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Temperature
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -804,8 +882,47 @@ exports[`Render App components should render the Navbar component 1`] = `
       </div>
     </div>
     <div
-      class="detailed-daily-weather"
-    />
+      class="other-days-weather"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="weather-table"
+        >
+          <div
+            class="weather-table-item"
+          >
+            <div
+              class="weather-table-item__title"
+            >
+              Day
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Chance of rain
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Humidity
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Wind
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Temperature
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;
@@ -1074,8 +1191,47 @@ exports[`Render App components should render the dailyWeather component 1`] = `
       </div>
     </div>
     <div
-      class="detailed-daily-weather"
-    />
+      class="other-days-weather"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="weather-table"
+        >
+          <div
+            class="weather-table-item"
+          >
+            <div
+              class="weather-table-item__title"
+            >
+              Day
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Chance of rain
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Humidity
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Wind
+            </div>
+            <div
+              class="weather-table-item__data-title"
+            >
+              Temperature
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `;

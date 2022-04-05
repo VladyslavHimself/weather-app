@@ -161,7 +161,50 @@ function App() {
                     </div>
                 </div>
             </div>
-            <div className={classes['detailed-daily-weather']} />
+            <div className={classes['other-days-weather']}>
+                <div className={classes.container}>
+                    <div className={classes['weather-table']}>
+                        <div className={classes['weather-table-item']}>
+                            <div
+                                className={
+                                    classes['weather-table-item__data-title']
+                                }
+                            >
+                                Day
+                            </div>
+                            <div
+                                className={
+                                    classes['weather-table-item__data-title']
+                                }
+                            >
+                                Chance of rain
+                            </div>
+                            <div
+                                className={
+                                    classes['weather-table-item__data-title']
+                                }
+                            >
+                                Humidity
+                            </div>
+                            <div
+                                className={
+                                    classes['weather-table-item__data-title']
+                                }
+                            >
+                                Wind
+                            </div>
+                            <div
+                                className={
+                                    classes['weather-table-item__data-title']
+                                }
+                            >
+                                Temperature
+                            </div>
+                        </div>
+                        <hr />
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
