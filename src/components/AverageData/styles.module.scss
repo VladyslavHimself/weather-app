@@ -1,0 +1,34 @@
+@import '../../styles/variables';
+@import '../../styles/colors';
+
+.average-data {
+    width: 256px;
+
+    display: flex;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    flex-direction: column;
+
+    &__city {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    &__time {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: $text-color-secondary;
+    }
+
+    &__temperature {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 112px;
+        color: $text-color;
+        margin-top: 26px;
+    }
+}

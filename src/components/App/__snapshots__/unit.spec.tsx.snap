@@ -72,18 +72,16 @@ exports[`Render App components should render DetailedDailyDescription component 
         >
           <div
             class="average-data__city"
-          >
-            London
-          </div>
+          />
           <div
             class="average-data__time"
           >
-            Sunday 07:09
+            undefined undefined
           </div>
           <div
             class="average-data__temperature"
           >
-            12°C
+            °C
           </div>
         </div>
         <div
@@ -273,69 +271,73 @@ exports[`Render App components should render DetailedDailyDescription component 
           class="weather-table"
         >
           <div
-            class="weather-table-item"
+            class="weather-table-item--title"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Day
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Chance of rain
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Humidity
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Wind
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Temperature
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-        <div
-          class="weather-table"
-        >
           <div
             class="weather-table-item"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Mon
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                9%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                57%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                10 km/h
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                19˚
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
         </div>
       </div>
     </div>
@@ -415,18 +417,16 @@ exports[`Render App components should render hourlyWeather component 1`] = `
         >
           <div
             class="average-data__city"
-          >
-            London
-          </div>
+          />
           <div
             class="average-data__time"
           >
-            Sunday 07:09
+            undefined undefined
           </div>
           <div
             class="average-data__temperature"
           >
-            12°C
+            °C
           </div>
         </div>
         <div
@@ -616,69 +616,73 @@ exports[`Render App components should render hourlyWeather component 1`] = `
           class="weather-table"
         >
           <div
-            class="weather-table-item"
+            class="weather-table-item--title"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Day
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Chance of rain
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Humidity
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Wind
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Temperature
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-        <div
-          class="weather-table"
-        >
           <div
             class="weather-table-item"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Mon
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                9%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                57%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                10 km/h
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                19˚
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
         </div>
       </div>
     </div>
@@ -758,18 +762,16 @@ exports[`Render App components should render the Navbar component 1`] = `
         >
           <div
             class="average-data__city"
-          >
-            London
-          </div>
+          />
           <div
             class="average-data__time"
           >
-            Sunday 07:09
+            undefined undefined
           </div>
           <div
             class="average-data__temperature"
           >
-            12°C
+            °C
           </div>
         </div>
         <div
@@ -959,69 +961,73 @@ exports[`Render App components should render the Navbar component 1`] = `
           class="weather-table"
         >
           <div
-            class="weather-table-item"
+            class="weather-table-item--title"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Day
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Chance of rain
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Humidity
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Wind
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Temperature
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-        <div
-          class="weather-table"
-        >
           <div
             class="weather-table-item"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Mon
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                9%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                57%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                10 km/h
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                19˚
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
         </div>
       </div>
     </div>
@@ -1101,18 +1107,16 @@ exports[`Render App components should render the dailyWeather component 1`] = `
         >
           <div
             class="average-data__city"
-          >
-            London
-          </div>
+          />
           <div
             class="average-data__time"
           >
-            Sunday 07:09
+            undefined undefined
           </div>
           <div
             class="average-data__temperature"
           >
-            12°C
+            °C
           </div>
         </div>
         <div
@@ -1302,69 +1306,73 @@ exports[`Render App components should render the dailyWeather component 1`] = `
           class="weather-table"
         >
           <div
-            class="weather-table-item"
+            class="weather-table-item--title"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Day
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Chance of rain
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Humidity
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Wind
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                Temperature
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
-        </div>
-        <div
-          class="weather-table"
-        >
           <div
             class="weather-table-item"
           >
             <div
-              class="weather-table-item__data-title"
+              class="weather-table-item__container"
             >
-              Day
+              <div
+                class="weather-table-item__data-title"
+              >
+                Mon
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                9%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                57%
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                10 km/h
+              </div>
+              <div
+                class="weather-table-item__data-title"
+              >
+                19˚
+              </div>
             </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Chance of rain
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Humidity
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Wind
-            </div>
-            <div
-              class="weather-table-item__data-title"
-            >
-              Temperature
-            </div>
+            <hr />
           </div>
-          <hr />
         </div>
       </div>
     </div>

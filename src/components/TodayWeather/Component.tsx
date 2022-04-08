@@ -1,15 +1,12 @@
 import cloudySvg from '../../assets/cloud.svg';
+import AverageData from '../AverageData/Component';
 import classes from './styles.module.scss';
 
 function TodayWeather() {
     return (
         <div className={classes['today-weather']}>
             <div className={classes.container}>
-                <div className={classes['average-data']}>
-                    <div className={classes['average-data__city']}>London</div>
-                    <div className={classes['average-data__time']}>Sunday 07:09</div>
-                    <div className={classes['average-data__temperature']}>12°C</div>
-                </div>
+                <AverageData city="London" day="Sunday" temperature={13} time="6:00" />
                 <div className={classes['general-data']}>
                     <div className={classes['data-item']}>
                         <div className={classes['data-item__time']}>08:00</div>
