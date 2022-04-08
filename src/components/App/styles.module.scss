@@ -174,9 +174,18 @@
 }
 
 .weather-table-item {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+    &--title {
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    &__container {
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
 
     &__data-title {
         display: flex;
@@ -184,11 +193,9 @@
     }
 
     &__data-title:first-child {
-        display: flex;
         flex-grow: 2;
     }
     &__data-title:last-child {
-        display: flex;
         flex-grow: 0;
     }
 }
@@ -198,6 +205,7 @@
         .container {
             width: 90%;
             justify-content: center;
+
             .average-data {
                 margin-top: 50px;
             }
