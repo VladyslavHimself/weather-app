@@ -1,0 +1,64 @@
+@import '../../styles/variables';
+@import '../../styles/colors';
+
+.detailed-now-weather {
+    position: relative;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: $background-inverse;
+
+    font-family: 'Roboto', sans-serif;
+
+    &__hint {
+        position: absolute;
+        top: 10%;
+        left: 1%;
+        transform: translate(-1%, -10%);
+
+        color: $text-color-inverse;
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .container {
+        width: $container-max-width;
+        min-height: 178px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .detailed-information-tab {
+        width: 121px;
+        height: 64px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        color: $text-color-inverse;
+
+        // border: 1px solid red;
+        &__title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+        }
+
+        &__data {
+            margin-top: 15px;
+
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+}
